@@ -1,0 +1,25 @@
+.search-wrapper {
+  margin-top: 1.25rem;
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.search-wrapper .search-input {
+  width: 100%;
+  padding: 0.875rem 2rem;
+  font-size: 0.875rem;
+  color: #fefefe;
+  border-radius: 6px;
+  background: transparent;
+  border: 1px solid var(--border-stroke);
+  outline: none;
+}
+
+.search-wrapper img {
+  position: absolute;
+  left: 0.5rem;
+  width: 20px;
+  height: 20px;
+}

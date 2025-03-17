@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background: #09090b;
+  --border-stroke: rgba(63, 63, 70, 0.2);
+  --outline: #1d4ed8;
+}
+
+body,
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background: var(--background);
+  min-height: 100vh;
+}
+
+button {
+  line-height: 0;
+}

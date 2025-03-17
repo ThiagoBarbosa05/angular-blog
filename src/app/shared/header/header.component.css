@@ -1,0 +1,10 @@
+header {
+  border-bottom: 1px solid var(--border-stroke);
+  color: #fefefe;
+  padding-block: 1rem;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
